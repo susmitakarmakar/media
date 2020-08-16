@@ -1,0 +1,91 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  h1{
+    color: indigo;
+    font-size: 16px;
+  }
+.box{
+  background-color: darkmagenta;
+  color: white;
+}
+.box1{
+  background-color: indigo;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+h1{
+    color: aqua;
+    font-size: 20px;
+  }
+.box{
+  background-color: goldenrod;
+  color: white;
+}
+.box1{
+  background-color: coral;
+  color: white;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+h1{
+    color: coral;
+    font-size: 25px;
+  }
+.box{
+  background-color: blueviolet;
+  color: white;
+}
+.box1{
+  background-color: crimson;
+  color: white;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.box{
+  background-color: darkslateblue;
+  color: white;
+}
+.box1{
+  background-color: darkblue;
+
+}
+
+}
+@media (min-width: 1200px) and (max-width: 2099.98px) { 
+.box{
+  background-color: indianred;
+  color: white;
+}
+.box1{
+  background-color: grey;
+  color: floralwhite;
+}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 2100px) { 
+  h1{
+    color: maroon;
+    font-size: 50px;
+  }
+.box{
+  background-color: royalblue;
+  color: white;
+  font-size: 30px;
+}
+.box1{
+  background-color: deepskyblue;
+  color: gray;
+  font-size: 30px;
+}
+
+}
